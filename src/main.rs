@@ -2,7 +2,7 @@ use salvo::prelude::*;
 use salvo::oapi::extract::JsonBody;
 use serde::Deserialize;
 
-
+mod entity;
 mod config;
 mod router;
 
